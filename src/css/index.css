@@ -1,0 +1,17 @@
+:root {
+ font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+ line-height: 1.5;
+ font-weight: 400;
+ font-size: 16px;
+
+ --positive: #0075ff;
+ --gray-900: #222222;
+}
+
+body {
+ margin: 0;
+ font-family: 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+ color: var(--gray-900)
+}
