@@ -15,7 +15,7 @@ import ListItem from './DropdownItem'
 export interface Option { value: string; label: string }
 export type Options = Option[]
 
-type SelectProps = {
+interface SelectProps {
  value?: string | null
  options: Options | (() => Promise<Options>)
  onChange?: (payload: Option) => void
